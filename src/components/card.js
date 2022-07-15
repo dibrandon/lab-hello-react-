@@ -1,3 +1,11 @@
+import icon1 from '../images/icon1.png';
+import icon2 from '../images/icon2.png';
+import icon3 from '../images/icon3.png';
+import icon4 from '../images/icon4.png';
+
+
+
+
 function Card() {
     return (
         <>
@@ -6,7 +14,7 @@ function Card() {
                 <img
                     id="card1"
                     // src=".././icon1.png"
-                    src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon1.png"
+                    src={icon1}
                     alt="icon 1"
                 />
                 <div className="text-card">
@@ -20,8 +28,8 @@ function Card() {
                 <img
                     id="card2"
                     // src=".././icon1.png"
-                    src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon2.png"
-                    alt="icon 1"
+                    src={icon2}                   
+                     alt="icon 1"
                 />
                 <div className="text-card">
                     <h4>Components</h4>
@@ -35,7 +43,7 @@ function Card() {
                 <img
                     id="card3"
                     // src=".././icon1.png"
-                    src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon3.png"
+                    src={icon3}
                     alt="icon 1"
                 />
                 <div className="text-card">
@@ -50,7 +58,7 @@ function Card() {
                 <img
                     id="card4"
                     // src=".././icon1.png"
-                    src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon4.png"
+                    src={icon4}
                     alt="icon 1"
                 />
                 <div className="text-card">
